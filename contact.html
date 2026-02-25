@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden Project </title>
+    <!---tailwind cdn link-->
+    <link href="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+" rel="stylesheet">
+    <!---font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Navbar Section-->
+    <nav class="bg-green-100 flex justify-between p-5 items-center shadow-xl sticky top-0 z-10">
+        <h1 class="font-bold text-3xl">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 w-7 md:hidden cursor-pointer">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-700 hidden md:flex">
+            <li><a href="index.html" class="hover:underline">Home</a></li>
+            <li><a href="product.html" class="hover:underline">Products</a></li>
+            <li><a href="contact.html" class="hover:underline">Contact</a></li>
+        </ul>
+    </nav>
+    <!--hero section-->
+    <div class="bg-green-100 p-5 flex justify-center ">
+        <div class=" lg:text-2xl m-10">
+            <p>We Offer You a Widge Range of Artificial and Natural Flowers</p>
+            <h2 class="font-bold text-3xl mb-5">Plants for your Interior</h2>
+            <div>
+                <button class="rounded-lg p-1 bg-black text-white">Shop Now</button>
+                <button class="border border-black rounded p-1">Watch Video</button>
+            </div>
+            <p class="mt-5">160+ Plants Species | 100+ clients</p>
+        </div>
+        <img src="image/plant.png" alt="image" class="w-1/5 mx-10 hidden md:flex">
+
+    </div>
+    <!---Contact section-->
+    <section>
+<section class="py-10">
+  <form class="max-w-3xl mx-auto bg-white shadow-lg rounded-xl p-8 space-y-6">
+    
+    <h2 class="text-center font-bold text-3xl">Contact Us</h2>
+
+    <!-- First & Last Name -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div>
+        <label class="font-semibold">
+          <span class="text-red-500">*</span> First Name
+        </label>
+        <input 
+          type="text" 
+          placeholder="Enter Your First Name"
+          required
+          class="w-full border border-gray-300 rounded-lg p-2 mt-1 focus:outline-none focus:ring-2 focus:ring-green-400">
+      </div>
+
+      <div>
+        <label class="font-semibold">
+          <span class="text-red-500">*</span> Last Name
+        </label>
+        <input 
+          type="text" 
+          placeholder="Enter Your Last Name"
+          required
+          class="w-full border border-gray-300 rounded-lg p-2 mt-1 focus:outline-none focus:ring-2 focus:ring-green-400">
+      </div>
+    </div>
+
+    <!-- Email -->
+    <div>
+      <label class="font-semibold">
+        <span class="text-red-500">*</span> Email
+      </label>
+      <input 
+        type="email" 
+        placeholder="Enter Your Email"
+        required
+        class="w-full border border-gray-300 rounded-lg p-2 mt-1 focus:outline-none focus:ring-2 focus:ring-green-400">
+    </div>
+
+    <!-- Phone -->
+    <div>
+      <label class="font-semibold">
+        <span class="text-red-500">*</span> Phone Number
+      </label>
+      <input 
+        type="tel" 
+        placeholder="Enter Your Phone Number"
+        required
+        class="w-full border border-gray-300 rounded-lg p-2 mt-1 focus:outline-none focus:ring-2 focus:ring-green-400">
+    </div>
+
+    <!-- Address -->
+    <div>
+      <label class="font-semibold">
+        <span class="text-red-500">*</span> Address
+      </label>
+      <textarea 
+        rows="4"
+        placeholder="Enter Your Address"
+        required
+        class="w-full border border-gray-300 rounded-lg p-3 mt-1 focus:outline-none focus:ring-2 focus:ring-green-400"></textarea>
+    </div>
+
+    <!-- Submit -->
+    <div class="text-center">
+      <button 
+        type="submit"
+        class="bg-green-500 hover:bg-green-600 text-white font-bold px-6 py-2 rounded-xl transition duration-300">
+        Submit
+      </button>
+    </div>
+
+  </form>
+</section>
+    </section>
+
+    <!---Footer Section-->
+    <section class="bg-green-100 p-5 gap-5">
+        <h1 class="font-bold text-3xl mt-5">Greenden</h1>
+        <p class=" mt-5">GreenDen is a modern and user-friendly online plant store designed to bring freshness and
+            greenery into every home. <br>We offer a wide collection of indoor and outdoor plants that are carefully
+            selected to ensure quality and beauty.</p>
+        <p class=" mt-5">&copy; 2026 Greendy.com</p>
+    </section>
+
+
+</body>
+
+</html>
