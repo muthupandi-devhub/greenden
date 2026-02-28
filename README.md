@@ -5,7 +5,7 @@ GreenDen is a modern and responsive online plant store website designed to bring
 ---
 
 ## 🚀 Live Demo
-🔗 https://your-live-link-here.com
+🔗 [https://your-live-link-here.com](https://muthupandi-devhub.github.io/greenden/)
 
 ---
 
